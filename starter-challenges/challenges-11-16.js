@@ -30,3 +30,8 @@ if(pontos >= 100){
 }else{
     console.log('Tente novamente');
 }
+
+//14)Crie uma mensagem que informa o usuário sobre o saldo da conta, usando uma template string para incluir o valor do saldo.
+
+let saldoConta = 100; 
+alert(`Seu saldo é de R$${saldoConta}.`);
